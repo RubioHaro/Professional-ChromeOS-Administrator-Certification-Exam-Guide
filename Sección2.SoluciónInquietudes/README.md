@@ -1,13 +1,27 @@
-![[Professional-ChromeOS-Administrator-Certification-Exam-Guide/Sección2.SoluciónInquietudes/imagen1.png]]
+# Sección 2. Solución de Problemas a Inquietudes de los Clientes
 
+![[Professional-ChromeOS-Administrator-Certification-Exam-Guide/Sección2.SoluciónInquietudes/imagen1.png]]
 ## Índice de la Sección
 
-1. Sobre la Consola de Administración
-2. ¿Cómo se Obtiene Acceso a la Consola?
-3. Usuarios e Identidad
-4. Interfaz de la consola
+1. Borrar dispositivos 
+2. Obtener registros de dispositivos (desde el dispositivo) 
+3. Registrar tickets de soporte
+4. Resolver problemas de conectividad 
+5. Ayudar al inicio de sesión de los usuarios por primera vez 
+6. Comprobar los dispositivos manualmente para las actualizaciones 
+7. Enviar solicitudes de características
+8. Estar al tanto del Programa de Probadores de Confianza
+9. Informar a los socios de las notas de la versión
 
-## Sobre la Consola de Administración
+## Inquietudes de los Clientes
+
+Google Chrome OS a comenzado a implementarse por diferentes organizaciones debido a las diversas ventajas cómo la seguridad y el rendimiento. Sin embargo, debido a que ChromeOS es un sistema operativo relativamente nuevo, es natural enfrentarse a diversas inquietudes relacionadas con temas de funcionalidad, seguridad entre otras. Esta sección busca resolver dichas inquietudes. Así cómo dar una guía de cuando conviene o no utilizar ChromeOS comenzando con algunos de los mitos de ChromeOS:
+
+* ChromeOS requiere de internet para funcionar. 
+* ChromeOS requiere licencias de Google.
+* ChromeOS es solo para equipos antiguos o legados.
+
+## Solución de Problemas de las Inquietudes de los Clientes
 
 La Consola de administración de Google es una plataforma web donde los administradores de un dominio gestionan los servicios de Google para las personas en una organización. 
 
@@ -29,10 +43,10 @@ Los enlaces para la creación de organización con cuenta Workspace, Cloud Ident
 
 ## Usuarios e Identidad
 
-La consola de administración de Google permite la administración los usuarios que pertenezca a una organicación así como la configuración de identidad. Es posible que los usuarios sean sincronizados desde servidores on-premise o con directorios activos de servicios de terceros (como Azure Directory). 
+La consola de administración de Google permite la administración los usuarios que pertenezca a una organización así como la configuración de identidad. Es posible que los usuarios sean sincronizados desde servidores on-premise o con directorios activos de servicios de terceros (como Azure Directory). 
 
 Además para cada usuario podemos asignarle algún tipo de cuenta según el licenciamiento que se necesite*: 
-* Cloud Identity: Cuentas gratuitas limitadas a servicios básicos de Google (sin correo ni ofimatica)
+* Cloud Identity: Cuentas gratuitas limitadas a servicios básicos de Google (sin correo ni ofimática)
 * Cuentas Google Workspace (Con correo electrónico y servicios de Ofimática de Google como Google Docs, Google Meets, entre otros)
 
 *Revisar licenciamiento de Cuentas de Google: Cloud Identity y Google Workspace.* *
