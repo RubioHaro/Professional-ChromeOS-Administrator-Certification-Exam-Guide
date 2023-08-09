@@ -21,53 +21,33 @@ Google Chrome OS a comenzado a implementarse por diferentes organizaciones debid
 * ChromeOS requiere licencias de Google.
 * ChromeOS es solo para equipos antiguos o legados.
 
-## Solución de Problemas de las Inquietudes de los Clientes
+## Operando en la Consola de Administración: Solución de Problemas de las Inquietudes de los Clientes
 
-La Consola de administración de Google es una plataforma web donde los administradores de un dominio gestionan los servicios de Google para las personas en una organización. 
+### 1. Borrar Dispositivos
+Inscribe los dispositivos Chrome que deseas gestionar desde tu Consola de administración. Borra o desprovee los dispositivos perdidos o robados.
 
-La Consola de administración se encuentra disponible desde: https://admin.google.com/
+Seguir en 1.Inscribir y Borrar 
+### 2. Obtener registros de dispositivos (desde el dispositivo) 
+Al momento de encontrar errores o funciones que no brindan los resultados esperados, es necesario leer la documentación y en caso de confirmar que algún componente o función no funciona correctamente es importante, antes de contactar el soporte técnico, contar con los registros del dispositivo: 
 
-Algunas de sus funciones son: agregar o eliminar usuarios de una organización, administrar la facturación, configurar dispositivos móviles, por mencionar algunas. 
+Los registros de tu dispositivo Chrome pueden ser analizados con Log Analyzer (https://toolbox.googleapps.com/apps/loganalyzer/) para intentar identificar el problema que se está experimentando. Si aún así no es posible resolver el problema, tener los registros a la mano cuando se haga contacto con el equipo de Asistencia facilitará la resolución del problema.
 
-## ¿Cómo se Obtiene Acceso a la Consola?
+Antes de ponerte en contacto con el equipo de Asistencia, te recomendamos que obtengas los registros (o logs) de tu dispositivo Chrome gestionado y los analices con Log Analyzer para intentar identificar el problema que estás experimentando. Si no consigues resolver el problema, ten los registros a mano cuando te pongas en contacto con el equipo de Asistencia.
 
-### Las Organizaciones
+Los logs pueden ser consultados desde el navegador, estos se encuentran en la ruta de sistema: /var/log, y podemos acceder a ellos desde el navegador escribiendo file:///var/log en la barra de direcciones.
 
-El recurso de **organización** en Google representa a una organización del mundo real (por ejemplo, una empresa) y es el nodo raíz en la jerarquía de recursos de Google Cloud. Las organizaciones están sujetas a un dominio, por ejemplo: *empresa.com*.
+![[Professional-ChromeOS-Administrator-Certification-Exam-Guide/Sección2.SoluciónInquietudes/imagen2.png]]
+Ejemplo de Logs mostrados desde el navegador. 
 
-El recurso de organización es el recurso principal de las carpetas y los recursos de proyectos. Las políticas de control de acceso de IAM aplicadas en el recurso de organización se aplican en la jerarquía de todos los recursos de la organización.
+Podemos descargar estos logs, o visualizarlos directamente haciendo click en el log deseado.
 
-El recurso de organización está estrechamente asociado con una cuenta de Google Workspace o Cloud Identity. Una creada una cuenta de Google Workspace o Cloud Identity, en el momento que se realice la asociación con un dominio, el recurso de organización se creará automáticamente.
+![[Professional-ChromeOS-Administrator-Certification-Exam-Guide/Sección2.SoluciónInquietudes/imagen3.png]]
+Ejemplo de log de bluetooth.
 
-Los enlaces para la creación de organización con cuenta Workspace, Cloud Identity, son diferentes entre sí además de requerir un proceso adicional al ser creado con algún partner de Google.
+Documentación sobre logs: https://support.google.com/chrome/a/answer/6270826?hl=en#zippy=%2Ccollect-network-logs%2Cread-the-logs-manually
 
-## Usuarios e Identidad
 
-La consola de administración de Google permite la administración los usuarios que pertenezca a una organización así como la configuración de identidad. Es posible que los usuarios sean sincronizados desde servidores on-premise o con directorios activos de servicios de terceros (como Azure Directory). 
 
-Además para cada usuario podemos asignarle algún tipo de cuenta según el licenciamiento que se necesite*: 
-* Cloud Identity: Cuentas gratuitas limitadas a servicios básicos de Google (sin correo ni ofimática)
-* Cuentas Google Workspace (Con correo electrónico y servicios de Ofimática de Google como Google Docs, Google Meets, entre otros)
-
-*Revisar licenciamiento de Cuentas de Google: Cloud Identity y Google Workspace.* *
-
-## Interfaz de la consola
-
-La consola de administración nos muestra un dashboard donde podemos ver un resumen de los usuarios que se tienen, así como accesos rápidos a creación de usuarios, eliminación y actualización de usuarios. Así como los dominios registrados, administrar facturación y métodos de pago. Y, finalmente, novedades y actualizaciones.
-
-![[imagen2.png]]
-
-En el menú lateral izquierdo, encontramos las diversas opciones mencionadas, el acceso al dashboard, la sección de administración de usuarios, y la sección de dispositivos que será de especial interés para la certificación de ChromeOS Administrator. 
-
-![[imagen3.png]]
-Existen diversos recursos para aprender más sobre la consola de administración:
-
-En Coursera tenemos Introducción a Cloud Identity: https://www.coursera.org/learn/cloud-identity
-e Introducción a Administración de Google Workspace https://www.coursera.org/learn/introduction-google-workspace
-
-Así como la documentación oficial: 
-* Cloud Identity: https://cloud.google.com/identity
-* Google Workspace: https://workspace.google.com/
 
 Referencias: 
 * https://workspace.google.com/intl/es-419_mx/products/admin/
