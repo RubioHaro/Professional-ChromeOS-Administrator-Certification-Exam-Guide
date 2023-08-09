@@ -10,9 +10,10 @@ https://chromeoscertification.com/guides/chromeos-administrator
 
 #### 1.0 Sobre la Consola de Administración (extra)
 
-1. Usuarios e Identidad
-2. Interfaz de la consola
-3. ¿Qué otras cosas tiene la consola?
+1. Sobre la Consola de Administración
+2. ¿Cómo se obtiene acceso a la consola?
+3. Usuarios e Identidad
+4. Interfaz de la consola
 
 #### 1.1 Solución de problemas de las inquietudes de los clientes
 

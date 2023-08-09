@@ -43,11 +43,11 @@ Además para cada usuario podemos asignarle algún tipo de cuenta según el lice
 
 La consola de administración nos muestra un dashboard donde podemos ver un resumen de los usuarios que se tienen, así como accesos rápidos a creación de usuarios, eliminación y actualización de usuarios. Así como los dominios registrados, administrar facturación y métodos de pago. Y, finalmente, novedades y actualizaciones.
 
-![[imagen2.png]]
+![[Professional-ChromeOS-Administrator-Certification-Exam-Guide/Sección1.ConsolaAdministración/imagen2.png]]
 
 En el menú lateral izquierdo, encontramos las diversas opciones mencionadas, el acceso al dashboard, la sección de administración de usuarios, y la sección de dispositivos que será de especial interés para la certificación de ChromeOS Administrator. 
 
-![[imagen3.png]]
+![[Professional-ChromeOS-Administrator-Certification-Exam-Guide/Sección1.ConsolaAdministración/imagen3.png]]
 Existen diversos recursos para aprender más sobre la consola de administración:
 
 En Coursera tenemos Introducción a Cloud Identity: https://www.coursera.org/learn/cloud-identity
