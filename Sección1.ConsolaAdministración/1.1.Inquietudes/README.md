@@ -1,4 +1,4 @@
-# Sección 2. Solución de Problemas a Inquietudes de los Clientes
+# Sección 1.1. Solución de Problemas a Inquietudes de los Clientes
 
 ![Professional-ChromeOS-Administrator-Certification-Exam-Guide-banner](imagen1.png)
 ## Índice de la Sección
@@ -123,6 +123,14 @@ Como administrador de ChromeOs, la mayoría de la configuración de los disposit
 Nota Importate: Solo la cuenta del propietario puede cambiar ciertas opciones de configuración de ChromeOS.
 
 ### 6. Comprobar los dispositivos manualmente para las actualizaciones
+
+Como administrador de Chrome, puedes gestionar las actualizaciones del sistema operativo ChromeOS de los dispositivos de tu organización. Cada cuatro semanas aproximadamente, se lanza una actualización completa de ChromeOS. Además, cada dos o tres semanas se publican actualizaciones menores, como correcciones de seguridad y actualizaciones de software. El tamaño medio de las actualizaciones de software completas de ChromeOS es superior a 400 MB, mientras que las actualizaciones menos importantes suelen ser de unos 50 MB.
+
+Ver más en [6.Actualizaciones](./6.SobreActualizaciones/README.md)
+
+
+
+
 
 Referencias: 
 * https://support.google.com/chrome/a/answer/4632009?hl=es-US&ref_topic=6239504&sjid=2507482886009163115-NC 

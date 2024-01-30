@@ -1,4 +1,4 @@
-# Sección 1. Sobre la Consola de Administración
+# Sección 1.0 Sobre la Consola de Administración
 
 ![Professional-ChromeOS-Administrator-Certification-Exam-Guide-Banner](imagen1.png)
 
