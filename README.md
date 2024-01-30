@@ -37,6 +37,7 @@ https://chromeoscertification.com/guides/chromeos-administrator
 
 1. Configurar "Configuración de la aplicación"
 2. (extra) Aplicaciones en Chrome OS
+3. Listas de aplicaciones permitidas y no permitidas.
 
 #### 1.4 Realización de acciones de dispositivo desde la consola de administración 
 
