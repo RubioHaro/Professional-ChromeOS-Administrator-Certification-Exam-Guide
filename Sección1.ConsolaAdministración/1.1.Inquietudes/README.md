@@ -9,9 +9,9 @@
 4. Resolver problemas de conectividad 
 5. Ayudar al inicio de sesión de los usuarios por primera vez 
 6. Comprobar los dispositivos manualmente para las actualizaciones 
-7. Enviar solicitudes de características
+7. Enviar solicitudes/reportes de características
 8. Estar al tanto del Programa de Probadores de Confianza
-9. Informar a los socios de las notas de la versión
+9. Notas de Versión
 
 ## Inquietudes de los Clientes
 
@@ -126,10 +126,44 @@ Nota Importate: Solo la cuenta del propietario puede cambiar ciertas opciones de
 
 Como administrador de Chrome, puedes gestionar las actualizaciones del sistema operativo ChromeOS de los dispositivos de tu organización. Cada cuatro semanas aproximadamente, se lanza una actualización completa de ChromeOS. Además, cada dos o tres semanas se publican actualizaciones menores, como correcciones de seguridad y actualizaciones de software. El tamaño medio de las actualizaciones de software completas de ChromeOS es superior a 400 MB, mientras que las actualizaciones menos importantes suelen ser de unos 50 MB.
 
-Ver más en [6.Actualizaciones](./6.SobreActualizaciones/README.md)
+Ver más en [1.6.Actualizaciones](./6.SobreActualizaciones/README.md)
 
+### 7. Enviar solicitudes/reportes de características
 
+La opción de feeback o retroalimentación sirve para notificar a Google de un problema. Proporcione una descripción detallada del problema, incluidas instrucciones paso a paso sobre cómo reproducirlo. Si su problema no se puede reproducir, no se puede solucionar.
 
+Puedes acceder al formulario de comentarios usando "Informar un problema..." en la sección Ayuda del menú de Chrome (tres puntos verticales en la esquina superior derecha del navegador). O presione el atajo de teclado alt shift i. Otra forma es presionar el botón de encendido durante 1 segundo; aparecerá un cuadro de menú con Comentarios como opción. Esta función nos permite enviar comentarios a Google sobre el sistema operativo ChromeOS.
+
+Además, puede solicitar/sugerir nuevas características para ChromeOS. 
+
+Referencias:
+* https://support.google.com/chrome/a/answer/13616425
+
+### 8. Estar al tanto del Programa de Probadores de Confianza
+
+Un verificador de confianza de Chrome Enterprise puede probar las nuevas funciones de Chrome. Además de proveer de comentarios directamente a los equipos de producto de Google, con el fin de desarrollar y priorizar nuevos productos y funciones. Todos los detalles y comentarios del programa son confidenciales.
+
+#### Requisitos para ser un verificador de confianza
+
+A fin de ser apto para participar en el programa de Verificador de confianza, se deben cumplir los siguientes requisitos:
+
+* Te registraste en la Administración en la nube para el navegador Chrome y aceptaste el Acuerdo de Administración en la nube para el navegador Chrome.
+* Tienes una licencia de actualización de Chrome Enterprise y aceptaste el Acuerdo de Chrome en línea.
+
+Consideraciones importantes: revisar los lineamientos del programa disponibles en https://support.google.com/chrome/a/answer/14215331
+
+Referencias:
+
+* https://support.google.com/chrome/a/answer/9036081
+
+### 9. Notas de Versión
+
+Las notas de versión incluyen información sobre las nuevas funciones, las correcciones de errores y las actualizaciones de seguridad. Es importante estar al tanto de las notas de versión para estar informado sobre las actualizaciones y cambios en el sistema operativo ChromeOS. Antes de levantar un ticket de soporte, es importante revisar las notas de versión para verificar si el problema que se está experimentando efectivamente es un comportamiento esperado o si ya ha sido reportado y solucionado.
+
+![Professional-ChromeOS-Administrator-Certification-Exam-Guide-banner](imagen7.png)
+
+Disponibles en:
+https://support.google.com/chrome/a/answer/7679408
 
 
 Referencias: 
