@@ -120,6 +120,16 @@ Para Iniciar Sesión por primera vez en un dispositivo Chrome, tenemos las sigui
 
 Como administrador de ChromeOs, la mayoría de la configuración de los dispositivos se realiza desde la consola de administración. Sin embargo, hay algunas configuraciones que los usuarios pueden cambiar en sus dispositivos. Y deberá evitarse el uso de cuentas de usuario personales para la configuración de los dispositivos que pertenezcan a la organización, ya que los datos de la organización podrían verse comprometidos.
 
+En resumen podemos decir que ChromeOS tiene tres tipos de modos:
+
+1. Modo Usuario Iniciado (Ya sea con una cuenta personal o de la organización)
+2. Modo Invitado
+3. Modo Kiosco (Se detallará más adelante)
+
+El siguiente video muestra un resumen de cómo iniciar sesión y usar estos modos en ChromeOS.
+
+[![Iniciar sesión por primera vez](imagen8.png)](https://www.youtube.com/watch?v=CM3zvTH4U-Q)
+
 Nota Importate: Solo la cuenta del propietario puede cambiar ciertas opciones de configuración de ChromeOS.
 
 ### 6. Comprobar los dispositivos manualmente para las actualizaciones
